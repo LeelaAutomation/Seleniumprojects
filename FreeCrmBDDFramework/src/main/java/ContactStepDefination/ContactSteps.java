@@ -19,7 +19,7 @@ public WebDriver driver;
 //Test feature steps
 @Given("^user is already on Login Page$")
 public void user_already_on_login_page(){
-System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chromedriver.exe");//webdriver instializing
 driver = new ChromeDriver();
 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
