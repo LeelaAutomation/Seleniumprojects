@@ -16,7 +16,7 @@ import org.testng.Assert;
 
 public class ContactSteps {
 public WebDriver driver;
-
+//Test feature steps
 @Given("^user is already on Login Page$")
 public void user_already_on_login_page(){
 System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chromedriver.exe");
