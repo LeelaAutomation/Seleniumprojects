@@ -1,0 +1,12 @@
+<suite name="Grouping" >
+  <test name="groupsTest">
+  <groups>
+  <run>
+  <include name = "Sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNGframework.NewTest3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
