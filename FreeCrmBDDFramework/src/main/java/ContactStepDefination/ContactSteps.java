@@ -41,7 +41,7 @@ driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[3]/
 //1. \"([^\"]*)\"
 //2. \"(.*)\"
 
-@Then("^user enters \"(.*)\" and \"(.*)\"$")//Regular expression for two parameters
+@Then("^user enters \"(.*)\" and \"(.*)\"$")//Regular expression for two parameters username & password
 public void user_enters_username_and_password(String email, String password){
 driver.findElement(By.name("email")).sendKeys(email);
 driver.findElement(By.name("password")).sendKeys(password);
