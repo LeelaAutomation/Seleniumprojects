@@ -3,7 +3,6 @@ Feature: Free CRM Create Contacts
 Scenario Outline: Free CRM Create a new contact scenario
 
 Given user is already on Login Page
-When title of login page is Free CRM
 Then user click on login button for enter credentials
 Then user enters "<email>" and "<password>"
 Then user tap on login button

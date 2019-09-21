@@ -7,7 +7,8 @@
         <methods>
           <include name="setup"/>
           <include name="TakeScreenshotTest3"/>
-          <include name="quit"/>
+          <include name="TakeScreenshotTest1"/>
+          <include name="TakeScreenshotTest2"/>
         </methods>
       </class> <!-- Listner.Takescreenshot -->
     </classes>

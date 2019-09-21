@@ -21,20 +21,17 @@ public WebDriver driver;
 public void user_already_on_login_page(){
 System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chromedriver.exe");//webdriver instializing for chrome browser
 driver = new ChromeDriver();
-driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 driver.get("https://www.freecrm.com/index.html");
+driver.manage().window().maximize();
+driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
 }
 
-@When("^title of login page is Free CRM$")
-public void title_of_login_page_is_free_CRM(){
-String title = driver.getTitle();
-System.out.println(title);
-Assert.assertEquals("#1 Free CRM software in the Cloud FreeCRM", title);
-}
 @Then("^user click on login button for enter credentials$")
 public void user_click_on_login_button_for_enter_credentials(){
-driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[3]/ul/a/span[2]")).click();
+driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[2]/ul/a/span[1]")).click();
 }
 
 //Reg Exp:

@@ -31,30 +31,73 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">51.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">0</td><td class="numi">9.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">Listner.Takescreenshot</td><td><a href="#m1"><b>TakeScreenshotTest3</b>  </a></td><td class="numi">1</td><td>1558424743536</td><td class="numi">13</td></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">Listner.Takescreenshot</td><td><a href="#m2"><b>TakeScreenshotTest1</b>  </a></td><td class="numi">1</td><td>1558424709462</td><td class="numi">9</td></tr><tr class="passedodd"><td><a href="#m3"><b>TakeScreenshotTest2</b>  </a></td><td class="numi">1</td><td>1558424728968</td><td class="numi">5</td></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Listner.Takescreenshot</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1569075905090</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">Listner.Takescreenshot</td><td><a href="#m2"><b>setup</b>  </a></td><td class="numi">2</td><td>1569075914019</td><td class="numi">15</td></tr><tr class="skippedodd"><td><a href="#m3"><b>quit</b>  </a></td><td class="numi">3</td><td>1569075914019</td><td class="numi">15</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">Listner.Takescreenshot</td><td><a href="#m4"><b>TakeScreenshotTest1</b>  </a></td><td class="numi">1</td><td>1569075914003</td><td class="numi">16</td></tr><tr class="skippedodd"><td><a href="#m5"><b>TakeScreenshotTest2</b>  </a></td><td class="numi">1</td><td>1569075914019</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>TakeScreenshotTest3</b>  </a></td><td class="numi">1</td><td>1569075914034</td><td class="numi">0</td></tr>
 </table>
 <h1>Default test</h1>
-<h2 id="m1">Listner.Takescreenshot:TakeScreenshotTest3</h2>
+<h2 id="m1">Listner.Takescreenshot:setup</h2>
 <div style="padding-left:3em">
-<p>expected [true] but found [false]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:286)
-<br/>at org.testng.Assert.assertEquals(Assert.java:296)
-<br/>at Listner.Takescreenshot.TakeScreenshotTest3(Takescreenshot.java:35)
-<br/>25 lines not shown
+<p>session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.53 seconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LEELADHAR&apos;, ip: &apos;192.168.0.9&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at Listner.base.intialization(base.java:14)
+<br/>at Listner.Takescreenshot.setup(Takescreenshot.java:14)
+<br/>27 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">Listner.Takescreenshot:TakeScreenshotTest1</h2>
+<h2 id="m2">Listner.Takescreenshot:quit</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">Listner.Takescreenshot:TakeScreenshotTest2</h2>
+<h2 id="m3">Listner.Takescreenshot:quit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Listner.Takescreenshot:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Listner.Takescreenshot:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Listner.Takescreenshot:quit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Listner.Takescreenshot:TakeScreenshotTest1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Listner.Takescreenshot:TakeScreenshotTest3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Listner.Takescreenshot:TakeScreenshotTest2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
