@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 16,
+        "line": 15,
         "name": "Free CRM Create a new contact scenario",
         "description": "",
         "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18021671338,
+              "duration": 17386565781,
               "status": "passed"
             },
             "line": 5,
@@ -24,18 +24,10 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 14963966776,
+              "status": "passed"
             },
             "line": 6,
-            "name": "title of login page is Free CRM",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
             "name": "user click on login button for enter credentials",
             "match": {
               "location": "ContactSteps.user_click_on_login_button_for_enter_credentials()"
@@ -44,9 +36,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 781398102,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "user enters \"leela231@gmail.com\" and \"Leeladhar\"",
             "match": {
               "arguments": [
@@ -65,9 +58,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 247955603,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "user tap on login button",
             "match": {
               "location": "ContactSteps.user_tap_on_login_button()"
@@ -76,9 +70,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3192781894,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "user moves to new contact page",
             "match": {
               "location": "ContactSteps.user_moves_to_new_contact_page()"
@@ -87,9 +82,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1892240742,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "user enters contact details \"Tom\" and \"Peter\"",
             "match": {
               "arguments": [
@@ -108,9 +104,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2769328866,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "Close the browser",
             "match": {
               "location": "ContactSteps.close_the_browser()"
@@ -124,75 +121,6 @@
     "description": "",
     "id": "free-crm-create-contacts",
     "keyword": "Feature",
-    "uri": "D:/leeladhar selenium/workspace/FreeCrmBDDFramework/src/main/java/Featrureone/contact.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "Free CRM login test scenerio",
-        "description": "",
-        "id": "free-crm-login-feature;free-crm-login-test-scenerio",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "user is already in login page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "title of login page is free CRM",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user click on login button for enter credentials",
-            "match": {
-              "location": "ContactSteps.user_click_on_login_button_for_enter_credentials()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "user enters username and password",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "user tap on login button",
-            "match": {
-              "location": "ContactSteps.user_tap_on_login_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Free CRM login feature",
-    "description": "",
-    "id": "free-crm-login-feature",
-    "keyword": "Feature",
-    "uri": "D:/leeladhar selenium/workspace/FreeCrmBDDFramework/src/main/java/Features/login.feature"
+    "uri": "C:/Users/Srinivas/git/Seleniumprojects/Seleniumprojects/Seleniumprojects/Seleniumprojects/FreeCrmBDDFramework/src/main/java/Featrureone/contact.feature"
   }
 ]

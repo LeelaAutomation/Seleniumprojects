@@ -2,7 +2,7 @@
   <test name="groupsTest">
   <groups>
   <run>
-  <include name = "Sanity"/>
+  <include name = "Regression"/>
   </run>
   </groups>
     <classes>

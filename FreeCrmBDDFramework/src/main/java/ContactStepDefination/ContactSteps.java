@@ -68,8 +68,8 @@ driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div[
 
 @Then("^user enters contact details \"([^\"]*)\" and \"([^\"]*)\"$")
 public void user_enters_contact_details_and(String firstname, String lastname) throws Exception {
-  driver.findElement(By.id("first_name")).sendKeys(firstname);
-  driver.findElement(By.id("last_name")).sendKeys(lastname);
+  driver.findElement(By.name("first_name")).sendKeys(firstname);
+  driver.findElement(By.name("last_name")).sendKeys(lastname);
   driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div[2]/div/button[2]")).click();
 }
 

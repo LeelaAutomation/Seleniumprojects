@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.072431">
-<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="18.058294">
-<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is Free CRM........................................undefined
-Then user click on login button for enter credentials.......................skipped
-Then user enters "leela231@gmail.com" and "Leeladhar".......................skipped
-Then user tap on login button...............................................skipped
-Then user moves to new contact page.........................................skipped
-Then user enters contact details "Tom" and "Peter"..........................skipped
-Then Close the browser......................................................skipped
-]]></failure>
-</testcase>
-<testcase classname="Free CRM login feature" name="Free CRM login test scenerio" time="0.014137">
-<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already in login page.........................................undefined
-When title of login page is free CRM........................................undefined
-Then user click on login button for enter credentials.......................skipped
-Then user enters username and password......................................undefined
-And user tap on login button................................................skipped
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.265341">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="41.265341">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+Then user click on login button for enter credentials.......................passed
+Then user enters "leela231@gmail.com" and "Leeladhar".......................passed
+Then user tap on login button...............................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "Tom" and "Peter"..........................passed
+Then Close the browser......................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

@@ -2,46 +2,38 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecommerce" duration-ms="47" started-at="2019-04-26T08:25:37Z" finished-at="2019-04-26T08:25:37Z">
+  <suite name="Suite" duration-ms="84" started-at="2019-10-13T02:57:19Z" finished-at="2019-10-13T02:57:19Z">
     <groups>
     </groups>
-    <test name="Sanitytests" duration-ms="47" started-at="2019-04-26T08:25:37Z" finished-at="2019-04-26T08:25:37Z">
-      <class name="TestNGframework.NewTest2">
-        <test-method status="PASS" signature="login()[pri:0, instance:TestNGframework.NewTest2@1ff8b8f]" name="login" is-config="true" duration-ms="16" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+    <test name="Test" duration-ms="84" started-at="2019-10-13T02:57:19Z" finished-at="2019-10-13T02:57:19Z">
+      <class name="TestNGframework.NewTest6">
+        <test-method status="PASS" signature="Testcase4()[pri:0, instance:TestNGframework.NewTest6@3ac42916]" name="Testcase4" duration-ms="11" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGframework.NewTest2@1ff8b8f]" name="logout" is-config="true" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+        </test-method> <!-- Testcase4 -->
+        <test-method status="PASS" signature="Testcase5()[pri:0, instance:TestNGframework.NewTest6@3ac42916]" name="Testcase5" duration-ms="6" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="Addvendor()[pri:1, instance:TestNGframework.NewTest2@1ff8b8f]" name="Addvendor" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="Testcase6()[pri:0, instance:TestNGframework.NewTest6@3ac42916]" name="Testcase6" duration-ms="2" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Addvendor -->
-        <test-method status="PASS" signature="Addproduct()[pri:2, instance:TestNGframework.NewTest2@1ff8b8f]" name="Addproduct" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+        </test-method> <!-- Testcase6 -->
+      </class> <!-- TestNGframework.NewTest6 -->
+      <class name="TestNGframework.NewTest5">
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:TestNGframework.NewTest5@17ed40e0]" name="Testcase1" duration-ms="11" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Addproduct -->
-        <test-method status="PASS" signature="Addcurrency()[pri:3, instance:TestNGframework.NewTest2@1ff8b8f]" name="Addcurrency" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="Testcase2()[pri:0, instance:TestNGframework.NewTest5@17ed40e0]" name="Testcase2" duration-ms="2" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Addcurrency -->
-      </class> <!-- TestNGframework.NewTest2 -->
-      <class name="TestNGframework.NewTest1">
-        <test-method status="PASS" signature="Addcurrency()[pri:0, instance:TestNGframework.NewTest1@387c703b]" name="Addcurrency" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="Testcase3()[pri:0, instance:TestNGframework.NewTest5@17ed40e0]" name="Testcase3" duration-ms="5" started-at="2019-10-13T08:27:19Z" finished-at="2019-10-13T08:27:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Addcurrency -->
-        <test-method status="PASS" signature="Addvendor()[pri:0, instance:TestNGframework.NewTest1@387c703b]" name="Addvendor" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addvendor -->
-        <test-method status="PASS" signature="Addproduct()[pri:0, instance:TestNGframework.NewTest1@387c703b]" name="Addproduct" duration-ms="0" started-at="2019-04-26T13:55:37Z" finished-at="2019-04-26T13:55:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addproduct -->
-      </class> <!-- TestNGframework.NewTest1 -->
-    </test> <!-- Sanitytests -->
-  </suite> <!-- Ecommerce -->
+        </test-method> <!-- Testcase3 -->
+      </class> <!-- TestNGframework.NewTest5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
