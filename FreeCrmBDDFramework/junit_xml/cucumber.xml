@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.265341">
-<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="41.265341">
-<system-out><![CDATA[Given user is already on Login Page.........................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="71.308556">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="71.308556">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div[1]/div/div[1]/a[3]/span&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LEELADHAR', ip: '192.168.0.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at ContactStepDefination.ContactSteps.user_moves_to_new_contact_page(ContactSteps.java:64)&#13;&#10;&#9;at ✽.user moves to new contact page(C:/Users/Srinivas/git/Seleniumprojects/Seleniumprojects/Seleniumprojects/Seleniumprojects/FreeCrmBDDFramework/src/main/java/Featrureone/contact.feature:9)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
 Then user click on login button for enter credentials.......................passed
 Then user enters "leela231@gmail.com" and "Leeladhar".......................passed
 Then user tap on login button...............................................passed
-Then user moves to new contact page.........................................passed
-Then user enters contact details "Tom" and "Peter"..........................passed
-Then Close the browser......................................................passed
-]]></system-out>
+Then user moves to new contact page.........................................failed
+Then user enters contact details "Tom" and "Peter"..........................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div[1]/div/div[1]/a[3]/span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LEELADHAR', ip: '192.168.0.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at ContactStepDefination.ContactSteps.user_moves_to_new_contact_page(ContactSteps.java:64)
+	at ✽.user moves to new contact page(C:/Users/Srinivas/git/Seleniumprojects/Seleniumprojects/Seleniumprojects/Seleniumprojects/FreeCrmBDDFramework/src/main/java/Featrureone/contact.feature:9)
+]]></failure>
 </testcase>
 </testsuite>

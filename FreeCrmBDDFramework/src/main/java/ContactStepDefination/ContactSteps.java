@@ -19,7 +19,7 @@ public WebDriver driver;
 //Test feature steps
 @Given("^user is already on Login Page$")
 public void user_already_on_login_page(){
-System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chromedriver.exe");//webdriver instializing for chrome browser
+System.setProperty("webdriver.chrome.driver","D:\\leeladhar selenium\\chrome drivers\\chromedriver.exe");//webdriver instializing for chrome browser
 driver = new ChromeDriver();
 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
@@ -57,9 +57,10 @@ js.executeScript("arguments[0].click();", loginBtn);*/
 
 @Then("^user moves to new contact page$")
 public void user_moves_to_new_contact_page() throws InterruptedException {
-	/*driver.switchTo().frame(0);
-	Actions action = new Actions(driver);
-	action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();*/
+	driver.switchTo().frame(0);
+	/*Actions action = new Actions(driver);
+	action.moveToElement(driver.findElement(By.xpath("//i[contains(text(),'/Contacts')]"))).build().perform();*/
+	//driver.findElement(By.xpath("//i[@href='/Contacts']")).click();
 driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/a[3]/span")).click();
 driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div[2]/div/a/button")).click();
 

@@ -113,7 +113,8 @@ formatter.match({
   "location": "ContactSteps.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d/html/body/div[1]/div/div[1]/a[3]/span\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LEELADHAR\u0027, ip: \u0027192.168.0.12\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat ContactStepDefination.ContactSteps.user_moves_to_new_contact_page(ContactSteps.java:64)\r\n\tat ✽.user moves to new contact page(C:/Users/Srinivas/git/Seleniumprojects/Seleniumprojects/Seleniumprojects/Seleniumprojects/FreeCrmBDDFramework/src/main/java/Featrureone/contact.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user enters contact details \"Tom\" and \"Peter\"",
@@ -123,7 +124,7 @@ formatter.match({
   "location": "ContactSteps.user_enters_contact_details_and(String,String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "Close the browser",
@@ -133,6 +134,6 @@ formatter.match({
   "location": "ContactSteps.close_the_browser()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });
